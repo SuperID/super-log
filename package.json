@@ -1,0 +1,31 @@
+{
+  "name": "super-log",
+  "version": "1.0.0",
+  "description": "简单日志记录器",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "export DEBUG='super-log' && mocha -t 5000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SuperID/super-log.git"
+  },
+  "keywords": [
+    "logger"
+  ],
+  "author": "Zongmin Lei <leizongmin@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SuperID/super-log/issues"
+  },
+  "homepage": "https://github.com/SuperID/super-log#readme",
+  "dependencies": {
+    "debug": "^2.2.0",
+    "lei-utils": "^2.1.0",
+    "mkdirp": "^0.5.1",
+    "rd": "0.0.2"
+  },
+  "devDependencies": {
+    "mocha": "^2.5.3"
+  }
+}
